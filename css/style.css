@@ -1,0 +1,319 @@
+
+	/*-- all css page class --*/
+	body {
+		font-family: "Century Gothic", Sans-serif;
+		color: #444242;
+		background-image: url(../img/backgroundfoto.jpg);
+		background-attachment: fixed;
+	}
+	
+	section {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		border-bottom: 2px solid #b5b2ad; 
+		margin-left: 185px;
+		margin-right: 185px;
+		padding: 40px;
+		background: #DFE0DC;
+		}
+		
+	a {
+		text-decoration: none;
+	}
+		
+		
+	
+	
+	.homepage {
+		position: fixed;
+		top: 8px;
+		left: 10px;
+		color: white;
+		font-weight: 700;
+		padding: 4px;
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+		height: 20px;
+		float: left;
+	} 
+	.homepage:hover { background: rgb(53, 167, 110); }
+	.homepage:active {
+		background: rgb(33,147,90);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	.up {
+		float: left;
+		position: fixed;
+		top: 50px;
+		left: 10px;
+		z-index: 1;
+	}
+	
+	.up a {
+		color: white;
+		font-weight: 700;
+		padding: 5px;
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+		height: 20px;
+	} 
+	.up a:hover { background: rgb(53, 167, 110); }
+	.up a:active {
+		background: rgb(33,147,90);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	p {
+			text-align: left;
+	}
+	      
+		  
+		  
+		  
+	/*-- css about me --*/
+	
+	.before_pug2 {
+		overflow: hidden;
+	}
+	
+	.pug2 {
+		margin: auto;
+		background-image: url(../img/pug2.jpg);
+		background-size: cover;
+		height: 300px;
+		width: 420px;
+		}
+	
+	
+	
+
+	
+	
+	/*-- css class pugs_sales--*/
+	
+	.pug4, .line_right {
+		display: inline-block;
+		vertical-align: top;
+		font-style: italic;
+		text-align: left;
+	}
+
+
+	.block {
+		clear:both;
+		overflow: hidden;
+	}
+	
+	.line_right {
+		padding-left: 35px;
+		padding-top: 15px;
+	}
+	
+	.form {
+		margin: 0 auto;
+		overflow-x: auto;
+		background-image: url(../img/pug5.jpg); 
+		opacity: 0.85;
+		border: none;
+		height: 360px;
+		background-size:cover;
+		max-width: 450px;
+		min-width: 50px;
+	}
+	
+	.button {
+		color: white;
+		font-weight: 700;
+		text-decoration: none;
+		padding: 4px;
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+	} 
+	.button:hover { background: rgb(53, 167, 110); }
+	.button:active {
+		background: rgb(33,147,90);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	.table {
+		font-size: 25px;
+		overflow-x: auto;
+		}
+		
+	table {
+		margin: 0 auto;
+	}
+		
+	th, td {
+		background: white;
+		padding: 25px;
+		background: #ffffff;
+		opacity: 0.7;
+	}
+	
+	.img-size {
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+	
+	.pug4 {
+		background-image: url(../img/pug4.jpg);
+		background-size: cover;
+		height: 300px;
+		width: 200px;
+	}
+	
+	
+	
+	
+	/*-- css class home_page --*/
+	
+	#home_title {
+		float: left;
+		margin-left: 100px;
+	}
+	
+	.home_link {
+		float: right;
+		margin-right: 100px;
+		margin-top: 30px;
+		font-weight: bold;
+	}
+	
+		
+	section {
+		clear: both;
+	}
+	
+	.gradient {
+		background: linear-gradient(to bottom, #cafe8a, #799855);
+		opacity: 0.9;
+		height: 120px;
+		border: 1px solid #333;
+	}
+	
+	.link_pags {
+		top: 8px;
+		left: 10px;
+		color: white;
+		font-weight: 700;
+		padding: 4px;
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+		height: 20px;
+				
+	} 
+	.link_pags:hover { background: rgb(53, 167, 110); }
+	.link_pags:active {
+		background: rgb(33,147,90);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	.link_about_me {
+		top: 8px;
+		left: 10px;
+		color: white;
+		font-weight: 700;
+		padding: 4px;
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+		height: 20px;
+	} 
+	.link_about_me:hover { background: rgb(53, 167, 110); }
+	.link_about_me:active {
+		background: rgb(33,147,90);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	.grid a {
+		display: inline-grid;
+		font-weight: 600;
+		color: #6b6967;
+		font-size: 20px;
+	}
+		
+	.nav_left {
+		float: left;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.nav_right {
+		float: right;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	.link_to_pugs_sales {
+		color: white;
+		font-weight: 700;
+		text-decoration: none;
+		padding: 4px;
+		border-radius: 3px;
+		background: rgb(64,199,129);
+		box-shadow: 0 -3px rgb(53,167,110) inset;
+		transition: 0.2s;
+	} 
+	.link_to_pugs_sales:hover { background: rgb(53, 167, 110); }
+	.link_to_pugs_sales:active {
+		background: rgb(33,147,90);
+		box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+	
+	
+	footer {
+		background: #DFE0DC;
+		color: #444242;
+		padding: 45px;
+		margin-left: 185px;
+		margin-right: 185px;
+		overflow: hidden;
+	}
+	
+	#article:after {
+		content: " ";
+		clear: both;
+		display: table;
+	}
+		
+		
+	
+	
+	.footer_text {
+		float: left;
+		margin: 0px;
+		padding: 10px;
+		list-style-type: none;
+	}
+	
+		
+	.little_black_pug {
+		background-image: url(../img/pug1.jpg);
+		background-size: cover;
+		height: 500px;
+	}
+	
+	.pug6 {
+		background-image: url(../img/pug6.jpg);
+		background-size: cover;
+		height: 150px;
+		width: 190px;
+		float: right;
+		margin-right: 45px;
+	}
+
+	
+	
+	

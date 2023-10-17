@@ -3,5 +3,7 @@
 *****
 
 * *This is my first project that I wrote in Notepad++*
+Это мой самый первый проект, который я сверстал на Notepad++ 
+Я решил сохранить его себе на память. 
+Июль 2021 г
 
-https://olvsivkov.github.io/1_progect-Pugs/html/
